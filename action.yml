@@ -115,7 +115,7 @@ runs:
           shallow_checkout "https://github.com/alliedmodders/hl2sdk" "$sdk" "hl2sdk-$sdk"
         done
         shallow_checkout "https://github.com/alliedmodders/ambuild" "${{ inputs.ambuild-ref }}" "ambuild"
-        shallow_checkout "https://github.com/alliedmodders/sourcemod" "${{ inputs.sm-ref }}" "sourcemod"
+        shallow_checkout "https://github.com/srcdslab/sourcemod" "${{ inputs.sm-ref }}" "sourcemod"
         shallow_checkout "https://github.com/alliedmodders/metamod-source" "${{ inputs.mm-ref }}" "metamod-source"
         shallow_checkout "https://github.com/alliedmodders/hl2sdk-manifests" "${{ inputs.hl2sdk-manifests-ref }}" "hl2sdk-manifests"
         git config --global advice.detachedHead true
