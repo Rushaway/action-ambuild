@@ -1,4 +1,4 @@
-name: "AlliedModders extension builder"
+name: "AlliedModders extension builder - Custom"
 description: "Builds SourceMod and Metamod:Source extensions with customizable SDK support"
 author: "SRCDSLab"
 branding:
